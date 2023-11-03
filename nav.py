@@ -5,7 +5,7 @@ import pandas as pd
 fund_list = pd.read_excel("fund_list.xlsx")
 
 try:
-    date = "2023-10-31"  # แทนด้วยวันที่ที่คุณต้องการ
+    date = "2023-10-31"  # แทนด้วยวันที่ที่ต้องการ
 
     hdr = {
         'Cache-Control': 'no-cache',
